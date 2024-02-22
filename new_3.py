@@ -41,7 +41,7 @@ def func(id, seq, ratio):
        
     vaccine_data = get_vaccine_data(id)
     
-    ## 第一段按照ratio打出标签
+    ### 第一段按照ratio打出标签
     result = []
     for i in range(len(vaccine_data) - seq):
         x = vaccine_data[i:i+seq]  
